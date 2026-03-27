@@ -1,0 +1,34 @@
+{
+  "RateResponse": {
+    "RatedShipment": [
+      {
+        "Service": { "Code": "03" },
+        "TotalCharges": {
+          "MonetaryValue": "12.50",
+          "CurrencyCode": "USD"
+        },
+        "TimeInTransit": {
+          "ServiceSummary": {
+            "EstimatedArrival": {
+              "BusinessDaysInTransit": "3"
+            }
+          }
+        }
+      },
+      {
+        "Service": { "Code": "02" },
+        "TotalCharges": {
+          "MonetaryValue": "34.80",
+          "CurrencyCode": "USD"
+        },
+        "TimeInTransit": {
+          "ServiceSummary": {
+            "EstimatedArrival": {
+              "BusinessDaysInTransit": "2"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
